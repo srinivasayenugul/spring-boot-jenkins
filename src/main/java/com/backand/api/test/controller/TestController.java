@@ -8,7 +8,7 @@ public class TestController {
 	
 	@GetMapping("/test")
 	public String gettest() {
-		return "successfully build  and  deployed in serve using jenkins"; 
+		return "successfully build an images and  deployed in serve using jenkins"; 
 	}
 
 }
